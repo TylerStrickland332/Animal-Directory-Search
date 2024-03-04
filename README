@@ -1,0 +1,25 @@
+
+Dashboard README
+Project Description
+This project is a web dashboard to visualize and analyze animals eligible for selection for their purposes. The dashboard provides various functionalities such as displaying key metrics, generating interactive visualizations, and allowing users to explore and filter data.
+
+Tools Used
+Python: Used as the primary programming language.
+Dash: Web framework for building the interactive dashboard.
+MongoDB: Utilized as the database for storing and retrieving data.
+Dash Framework: Utilized as the web base for displaying the filtered, sorted, and contextualized database information.
+Dash was chosen as the framework for building the web application due to its simplicity, flexibility, and compatibility with Python. Key features of Dash include:
+
+This web based application can be used to filter through many different animal types (species) to search for specific animals that meet the user’s requirements. The filters for breeds are selectable via the dropdown, however all categories can be manually typed in as well but will only filter for that specific entry. All of these filters are compatible and can be used with one another.NOTE: New breeds will have to be manually added by adding their breed type to the dropdown option selection as shown below.
+The pie chart is actively updated as more species are added. Currently the database only possesses 5 categories of species, though can support more. Certain keys can be selected to only be shown to compare specific species as well.
+NOTE: Adding too many species may result in the pie chart displaying incorrectly. If a multitude of species are to be added take use of the ‘Other’ category for less common species to avoid this problem
+
+I mainly write programs in such a way that they're modular and easy to understand sometimes with comments if I feel the function of a particular part of the code iesn't easy to understand. In this case specifically, I built this code to work specifically with the database given. However, with a few adjustments to the parameters this code could easily be used in different databases as well by allowing the filtering to be more useful for one's own identifying columns/values.
+
+If you’d like to suggest or contribute to this project feel free to consult me.
+
+Created by:
+Tyler Strickland
+
+Project Status: 
+Completed
